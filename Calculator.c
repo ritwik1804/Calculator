@@ -2,16 +2,16 @@
 int main(){
    char Op;
    float num1, num2, res= 0;
-   printf("\n Enter any one operator like +, -, *, /, %: ");
+   printf("\n Enter any one operator like +, -, *, /: ");
    scanf("%c", &Op);
    printf("Enter the values of Operands num1 and num2 \n : ");
    scanf("%f%f", &num1, &num2);
    switch(Op){
-      case '+': result = num1 + num2;
+      case '+': res = num1 + num2;
          break;
-      case '-': result = num1 - num2;
+      case '-': res = num1 - num2;
          break;
-      case '*': result = num1 * num2;
+      case '*': res = num1 * num2;
          break;
       case '/': res = num1 / num2;
          break;
